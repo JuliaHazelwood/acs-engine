@@ -80,12 +80,12 @@ Build Steps:
 
 1. Open a command prompt to setup your gopath:
   1. `mkdir $HOME/gopath`
-  2. edit `$HOME/.bash_profile` and add the following line to setup your go path
+  2. edit `$HOME/.bash_profile` and add the following lines to setup your go path
   ```
   export PATH=$PATH:/usr/local/go/bin
   export GOPATH=$HOME/gopath
+  source $HOME/.sh_profile
   ```
-  3. `source $HOME/.sh_profile`
 2. Build acs-engine:
   1. type `go get github.com/Azure/acs-engine` to get the acs-engine Github project
   2. type `go get all` to get the supporting components
